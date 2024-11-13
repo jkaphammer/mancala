@@ -1,5 +1,6 @@
 # Mancala\
-**AI application that plays a (modified) version of mancala.** \n
+**AI application that plays a (modified) version of mancala.**
+
 *Modified rules:*
 - On every turn, select a pit on your side of the board that contains one or more
 stones, the distribute its stones, one stone per pit or Mancala, in an counter-
