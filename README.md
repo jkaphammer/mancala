@@ -1,4 +1,4 @@
-# Mancala\
+# Mancala
 **AI application that plays a (modified) version of mancala.**
 
 *Modified rules:*
