@@ -1,5 +1,6 @@
 # Mancala
 **AI application that plays a (modified) version of mancala.**
+**This uses AIMA-python resources. To run this on your local machine, you must put this notebook in the AIMA directory**
 
 *Modified rules:*
 - On every turn, select a pit on your side of the board that contains one or more
@@ -18,14 +19,15 @@ have an equal number of stones in their mancala, the game results in a tie.
 **Current Progess**
 - User can play and input moves as a player
 - Random opponent will select a random legal move
+- Analyzed 100 games of random player against random player
+- Began minimax AI player, added utility function to mancala DS
 
 **To-Do's**
-1. Analyze 100 games of random player against random player
-2. Build an AI player that uses minimax to choose the best move with a variable
+1. Complete AI player that uses minimax to choose the best move with a variable
 number of plies and a utility function
-3. Play 100 games with the random player against the minimax AI player at a
+2. Play 100 games with the random player against the minimax AI player at a
 depth of 5 plies, and analyze 100 games
-4. Build an AI player that uses Alpha-Beta to choose the best move
-5. Play 100 games with the random player against the Alpha-Beta AI player at a
+3. Build an AI player that uses Alpha-Beta to choose the best move
+4. Play 100 games with the random player against the Alpha-Beta AI player at a
 depth of 5 plies, and analyze
-6. Play 100 games with the random player against the Alpha-Beta AI player at a depth of 10 plies, and analyze
+5. Play 100 games with the random player against the Alpha-Beta AI player at a depth of 10 plies, and analyze

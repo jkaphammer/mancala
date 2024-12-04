@@ -1,5 +1,6 @@
 # Mancala
 **AI application that plays a (modified) version of mancala.**
+**This uses AIMA-python resources. To run this on your local machine, you must put this notebook in the AIMA directory**
 
 *Modified rules:*
 - On every turn, select a pit on your side of the board that contains one or more
